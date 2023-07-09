@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout3</title>
+</head>
+<style id="text/css">
+    *{
+        font-size: 22px;
+        font-weight: bold;
+    }
+    #R1{
+        background-color: gray;
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        margin-bottom: 10px;
+        align-items: center;
+}
+#R1C1{
+    padding-left: 25px;
+}
+#R1C2{
+    padding-right: 25px;
+}
+#R2,#R3,#R5{
+        background-color: gray;
+        height: 33px;
+        padding-top: 7px;
+        width: 100%;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        text-align: center;
+}
+#R4{
+    height: 600px;
+    width: 100%;
+    margin-right: 2%;
+}
+#R4C1{
+    margin-right: 3%;
+    width: 30%;
+}
+#R4C2{
+    margin-right: 3%;
+    width: 30%;
+}
+#R4C3{
+    margin-right: 3%;
+    width: 30%;
+}
+#R4 div{
+    float: left;
+    height: 320px;
+    padding-top: 280px;
+    text-align: center;
+    background-color: gray;
+}
+</style>
+<body>
+    <div id="R1">
+        <div id="R1C1">LOGO</div>
+        <div id="R1C2">Navigation</div>
+    </div>
+    <div id="R2">
+        Header/Banner
+    </div>
+    <div id="R3">
+        intro text area
+    </div>
+    <div id="R4">
+        <div id="R4C1">Box1</div>
+        <div id="R4C2">Box2</div>
+        <div id="R4C3">Box3</div>
+    </div>
+    <div id="R5">Booster</div>
+</body>
+</html>
